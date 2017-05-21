@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿//////////////////////////////////////////
+//
+//   PROGRAMMING ASP.NET CORE
+//   Dino Esposito
+//   
+//   Starter kit
+//
+
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Tagh
+namespace YouCore.Server
 {
     public class Program
     {
@@ -16,7 +20,6 @@ namespace Tagh
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseApplicationInsights()
                 .Build();
 
             host.Run();

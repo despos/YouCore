@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Content\Fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\Content\Fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\Content\Fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\Content\Fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\Content\Fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\Content\Fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\Content\Scripts\bootstrap.min.js" />
+    <Content Include="wwwroot\Content\Scripts\jquery.min.js" />
+    <Content Include="wwwroot\Content\Scripts\tether.min.js" />
+    <Content Include="wwwroot\Content\Scripts\typeahead.bundle.min.js" />
+    <Content Include="wwwroot\Content\Scripts\typeahead.container.js" />
+    <Content Include="wwwroot\Content\Scripts\starter-kit.js" />
+    <Content Include="wwwroot\Content\Styles\bootstrap.min.css" />
+    <Content Include="wwwroot\Content\Styles\font-awesome.min.css" />
+    <Content Include="wwwroot\Content\Styles\Site\bootstrap-extensions.css" />
+    <Content Include="wwwroot\Content\Styles\Site\site.css" />
+    <Content Include="wwwroot\Content\Styles\typeahead.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Content\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\favicon.ico" />
+  </ItemGroup>
+
+</Project>

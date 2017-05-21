@@ -1,0 +1,8 @@
+﻿{
+  "ConnectionStrings": {
+    "YouKeepDatabase": "Server=(local);Database=YouCoreDatabase;Integrated Security=true;MultipleActiveResultSets=true"
+  },
+  "Globals": {
+    "Title": "YouCORE::StarterKit"
+  }
+}

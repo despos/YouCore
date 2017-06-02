@@ -38,7 +38,7 @@ namespace YouCore.Server
             services.AddMvc();
 
             // Add custom application services
-            services.AddSingleton<HomeService>();
+            services.AddSingleton<IHomeService>(new HomeService());
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)

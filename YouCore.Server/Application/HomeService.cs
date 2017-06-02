@@ -12,8 +12,13 @@ using YouCore.Server.Models;
 
 namespace YouCore.Server.Application
 {
-    public class HomeService : ApplicationServiceBase
+    public class HomeService : ApplicationServiceBase, IHomeService
     {
+        public HomeService()
+        {
+            Settings = new GlobalConfig();
+        }
+
         public HomeService(IOptions<GlobalConfig> config)
         {
             Settings = config.Value;

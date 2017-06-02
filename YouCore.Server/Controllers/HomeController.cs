@@ -13,9 +13,9 @@ namespace YouCore.Server.Controllers
 {
     public class HomeController : StarterKitController
     {
-        private readonly HomeService _homeService;
+        private readonly IHomeService _homeService;
 
-        public HomeController(HomeService service)
+        public HomeController(IHomeService service)
         {
             _homeService = service;
         }
